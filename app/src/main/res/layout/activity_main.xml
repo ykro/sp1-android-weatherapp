@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/main.message.condition"
-        android:id="@+id/txtCondition"
+        android:id="@+id/txtDescription"
         android:layout_alignTop="@+id/imgIcon"
         android:layout_alignRight="@+id/btnSubmit"
         android:layout_alignEnd="@+id/btnSubmit" />

@@ -67,4 +67,5 @@ public class WeatherInfo {
     public void setSunset(String sunset) {
         this.sunset = sunset;
     }
+
 }

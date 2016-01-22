@@ -2,4 +2,7 @@
     <string name="app_name">WeatherApp</string>
     <string name="main.input.message">Ingrese una ciudad</string>
     <string name="main.button.submit">Enviar</string>
+    <string name="main.message.temp">%1$s \u2103</string>
+    <string name="main.message.condition">Lluvia ligera</string>
+
 </resources>

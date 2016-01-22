@@ -29,6 +29,7 @@
         android:layout_height="wrap_content"
         android:text="@string/main.button.submit"
         android:id="@+id/btnSubmit"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
@@ -36,8 +37,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="@string/main.message.temp"
         android:id="@+id/txtTemp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:layout_below="@+id/textInput"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -55,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="@string/main.message.condition"
         android:id="@+id/txtCondition"
         android:layout_alignTop="@+id/imgIcon"
         android:layout_alignRight="@+id/btnSubmit"

@@ -61,13 +61,11 @@ public class MainActivity extends AppCompatActivity {
         strTempMax = String.format(strTempMax, info.getTempMax());
         txtTempMax.setText(strTempMax);
 
-        String strDesc = getString(R.string.main_message_condition);
-        strDesc = String.format(strDesc, info.getDescription());
-        txtTempMax.setText(strDesc);
+        txtDescription.setText(info.getDescription());
 
         String iconName = info.getIconName();
         String iconUrl = "http://openweathermap.org/img/w/" + iconName + ".png";
-
+        Log.e("ASDF",iconUrl);
         Glide.with(this).load(iconUrl).into(imgIcon);
 
     }

@@ -62,4 +62,51 @@
         android:layout_alignTop="@+id/imgIcon"
         android:layout_alignRight="@+id/btnSubmit"
         android:layout_alignEnd="@+id/btnSubmit" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgIcon"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/main.message.min"
+            android:id="@+id/txtTempMin" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/main.message.max"
+            android:id="@+id/txtTempMax" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/main.message.sunrise"
+        android:id="@+id/txtSunrise"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/main.message.sunset"
+        android:id="@+id/txtSunset"
+        android:layout_below="@+id/txtSunrise"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         String iconName = info.getIconName();
         String iconUrl = "http://openweathermap.org/img/w/" + iconName + ".png";
-        Log.e("ASDF",iconUrl);
+        Log.e(TAG,iconUrl);
         Glide.with(this).load(iconUrl).into(imgIcon);
 
     }

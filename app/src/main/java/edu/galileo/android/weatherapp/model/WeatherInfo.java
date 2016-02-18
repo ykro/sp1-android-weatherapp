@@ -1,4 +1,4 @@
-package edu.galileo.android.weatherapp;
+package edu.galileo.android.weatherapp.model;
 
 /**
  * Created by ykro.

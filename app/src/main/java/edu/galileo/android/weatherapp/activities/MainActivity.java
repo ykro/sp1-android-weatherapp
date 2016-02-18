@@ -1,4 +1,4 @@
-package edu.galileo.android.weatherapp;
+package edu.galileo.android.weatherapp.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +12,8 @@ import com.bumptech.glide.Glide;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import edu.galileo.android.weatherapp.R;
+import edu.galileo.android.weatherapp.model.WeatherInfo;
 
 public class MainActivity extends AppCompatActivity {
     private final static String TAG = "MainActivity";
@@ -65,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
 
         String iconName = info.getIconName();
         String iconUrl = "http://openweathermap.org/img/w/" + iconName + ".png";
-        Log.e(TAG,iconUrl);
         Glide.with(this).load(iconUrl).into(imgIcon);
 
     }

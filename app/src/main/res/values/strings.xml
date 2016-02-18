@@ -8,4 +8,6 @@
     <string name="main.message.max">Max: %1$s \u2103</string>
     <string name="main.message.sunrise">Salida de sol: %1$s AM</string>
     <string name="main.message.sunset">Puesta de sol: %1$s PM</string>
+
+
 </resources>
